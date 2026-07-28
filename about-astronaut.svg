@@ -1,0 +1,131 @@
+<svg width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="haloGlow" cx="50%" cy="46%" r="55%">
+      <stop offset="0%" stop-color="#2a1f66" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#150f38" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0a0820" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="mTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF"/>
+      <stop offset="50%" stop-color="#8A6BFF"/>
+      <stop offset="100%" stop-color="#00FFF2"/>
+    </linearGradient>
+
+    <linearGradient id="mSuit" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d6dcf5"/>
+    </linearGradient>
+
+    <filter id="mGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b1"/>
+      <feMerge><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="mSoftShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Background halo (transparent outer, works on light or dark page) -->
+  <circle cx="240" cy="220" r="200" fill="url(#haloGlow)"/>
+  <circle cx="240" cy="220" r="185" fill="none" stroke="#00F0FF" stroke-width="1" opacity="0.3"/>
+  <circle cx="240" cy="220" r="150" fill="none" stroke="#7B2FF7" stroke-width="1" opacity="0.25"/>
+
+  <!-- Twinkling stars -->
+  <circle cx="70" cy="80" r="2" fill="#00F0FF"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="410" cy="70" r="1.8" fill="#B18CFF"><animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="420" cy="360" r="2.2" fill="#00FFF2"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.7s" repeatCount="indefinite"/></circle>
+  <circle cx="55" cy="380" r="1.6" fill="#7B2FF7"><animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/></circle>
+
+  <!-- Floating holographic code panels around astronaut -->
+  <g opacity="0.9">
+    <g transform="translate(60,150) rotate(-8)">
+      <animateTransform attributeName="transform" type="translate" values="60,150; 60,135; 60,150" dur="4.4s" repeatCount="indefinite" additive="sum"/>
+      <rect x="0" y="0" width="86" height="60" rx="6" fill="#0d0a24" opacity="0.85" stroke="#00F0FF" stroke-width="1.2"/>
+      <rect x="10" y="12" width="45" height="4" fill="#00F0FF"/>
+      <rect x="10" y="22" width="60" height="4" fill="#7B2FF7"/>
+      <rect x="10" y="32" width="35" height="4" fill="#00FFF2"/>
+      <rect x="10" y="42" width="50" height="4" fill="#00F0FF" opacity="0.7"/>
+    </g>
+    <g transform="translate(345,120) rotate(7)">
+      <animateTransform attributeName="transform" type="translate" values="345,120; 345,138; 345,120" dur="5s" repeatCount="indefinite" additive="sum"/>
+      <rect x="0" y="0" width="80" height="55" rx="6" fill="#0d0a24" opacity="0.85" stroke="#7B2FF7" stroke-width="1.2"/>
+      <rect x="9" y="11" width="40" height="4" fill="#7B2FF7"/>
+      <rect x="9" y="21" width="55" height="4" fill="#00F0FF"/>
+      <rect x="9" y="31" width="30" height="4" fill="#00FFF2"/>
+      <circle cx="65" cy="41" r="3" fill="#00FFF2"/>
+    </g>
+  </g>
+
+  <!-- ================= FLOATING ASTRONAUT (sitting, laptop on lap) ================= -->
+  <g transform="translate(150,140)" filter="url(#mSoftShadow)">
+    <animateTransform attributeName="transform" type="translate" values="150,140; 150,118; 150,140"
+      dur="4.5s" repeatCount="indefinite" additive="sum" calcMode="spline"
+      keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+
+    <!-- tether -->
+    <path d="M 100 40 Q 60 10 90 -25" stroke="#00F0FF" stroke-width="1.5" fill="none" opacity="0.35" stroke-dasharray="4 5"/>
+
+    <!-- backpack -->
+    <rect x="55" y="55" width="72" height="82" rx="16" fill="#1b1740"/>
+    <rect x="55" y="55" width="72" height="82" rx="16" fill="none" stroke="#7B2FF7" stroke-width="1.3" opacity="0.6"/>
+
+    <!-- crossed legs (sitting pose) -->
+    <path d="M 70 150 Q 40 175 70 195 Q 100 210 140 195" stroke="#d7dcf5" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <path d="M 140 150 Q 165 172 140 192 Q 115 208 78 195" stroke="#eef1fb" stroke-width="20" fill="none" stroke-linecap="round" opacity="0.95"/>
+
+    <!-- body / suit -->
+    <rect x="50" y="65" width="90" height="100" rx="32" fill="url(#mSuit)"/>
+    <rect x="50" y="65" width="90" height="100" rx="32" fill="none" stroke="#00F0FF" stroke-width="1.6" opacity="0.55"/>
+
+    <!-- chest panel -->
+    <rect x="72" y="98" width="42" height="26" rx="5" fill="#0d0a24"/>
+    <circle cx="82" cy="111" r="3.2" fill="#00F0FF"/>
+    <circle cx="95" cy="111" r="3.2" fill="#7B2FF7"/>
+    <circle cx="108" cy="111" r="3.2" fill="#00FFF2"/>
+
+    <!-- laptop on lap (coder detail) -->
+    <g transform="translate(63,170)">
+      <rect x="0" y="0" width="70" height="6" rx="2" fill="#c7cdea"/>
+      <g transform="translate(4,-40) rotate(4)">
+        <rect x="0" y="0" width="60" height="42" rx="3" fill="#0d0a24" stroke="#00F0FF" stroke-width="1.4"/>
+        <rect x="4" y="4" width="52" height="34" fill="#071427"/>
+        <rect x="8" y="8" width="24" height="3" fill="#00F0FF" opacity="0.9"/>
+        <rect x="8" y="15" width="36" height="3" fill="#7B2FF7" opacity="0.9"/>
+        <rect x="8" y="22" width="18" height="3" fill="#00FFF2" opacity="0.9"/>
+        <rect x="8" y="29" width="30" height="3" fill="#00F0FF" opacity="0.7"/>
+      </g>
+    </g>
+
+    <!-- arms resting toward laptop -->
+    <path d="M 52 78 Q 25 100 40 135 Q 48 150 68 148" stroke="#eef1fb" stroke-width="17" fill="none" stroke-linecap="round"/>
+    <path d="M 138 78 Q 165 100 150 135 Q 142 150 122 148" stroke="#eef1fb" stroke-width="17" fill="none" stroke-linecap="round"/>
+
+    <!-- helmet -->
+    <circle cx="95" cy="35" r="48" fill="#f4f6fd"/>
+    <circle cx="95" cy="35" r="48" fill="none" stroke="#00F0FF" stroke-width="1.8" opacity="0.7"/>
+    <!-- visor -->
+    <ellipse cx="98" cy="37" rx="34" ry="32" fill="url(#mTextGrad)" opacity="0.92"/>
+    <!-- visor reflection: code lines -->
+    <g opacity="0.85">
+      <rect x="75" y="22" width="22" height="2.6" rx="1.3" fill="#0d0a24"/>
+      <rect x="75" y="30" width="32" height="2.6" rx="1.3" fill="#0d0a24"/>
+      <rect x="75" y="38" width="18" height="2.6" rx="1.3" fill="#0d0a24"/>
+      <rect x="75" y="46" width="27" height="2.6" rx="1.3" fill="#0d0a24"/>
+    </g>
+    <!-- helmet shine -->
+    <ellipse cx="75" cy="15" rx="9" ry="14" fill="#ffffff" opacity="0.5"/>
+    <!-- antenna -->
+    <line x1="128" y1="8" x2="140" y2="-12" stroke="#8A93C9" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="140" cy="-14" r="4.5" fill="#00FFF2">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Caption -->
+  <text x="240" y="450" text-anchor="middle" font-family="Segoe UI, Verdana, sans-serif"
+        font-size="16" font-weight="600" fill="url(#mTextGrad)" filter="url(#mGlow)">
+    Coding among the stars ✨
+  </text>
+</svg>
