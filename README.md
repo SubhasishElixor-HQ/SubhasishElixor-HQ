@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ================= HERO BANNER (3D) ================= -->
-<img src="./assets/banner.svg" width="100%"/>
+<img src="banner-premium-ai.svg" width="100%"/>
 
 <!-- ================= ANIMATED TYPING TEXT ================= -->
 <a href="https://git.io/typing-svg">
