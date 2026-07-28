@@ -127,11 +127,14 @@ Status:
 </details>
 
 ---
-
-<!-- ================= GITHUB ANALYTICS (ANIMATED 3D) ================= -->
 <div align="center">
 
-<img src="./assets/analytics-3d.svg" width="100%"/>
+<img width="98%" src="https://streak-stats.demolab.com?user=SubhasishOmnify-HQ&theme=tokyonight&hide_border=true"/>
+
+<br><br>
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=SubhasishOmnify-HQ&theme=tokyo-night&hide_border=true&area=true"/>
+
 
 </div>
 
@@ -187,26 +190,32 @@ Status:
 
 ---
 
-<!-- ================= CONNECT WITH ME ================= -->
-## 🌐 Connect With Me
-
 <div align="center">
 
-<a href="https://linkedin.com/in/subhasish-sahoo-92b714418/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://twitter.com/YOUR_TWITTER"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
-<a href="mailto:subhasishsahoo4747@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://YOUR_PORTFOLIO.com"><img src="https://img.shields.io/badge/Portfolio-00F0FF?style=for-the-badge&logo=vercel&logoColor=black"/></a>
-<a href="https://github.com/SubhasishOmnify-HQ"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Mission%20Communication&fontColor=ffffff&fontSize=42&animation=twinkling&color=0:000428,100:004e92"/>
 
-</div>
+### 🛰️ Communication Channel Active
+### 🌍 Worldwide Collaboration
+### 🚀 Open Source Mission
+### ⭐ Connect Below
 
----
+<br>
 
-<!-- ================= QUOTE ================= -->
-<div align="center">
+<a href="https://github.com/SubhasishOmnify-HQ" target="_blank">
+  <img src="https://img.icons8.com/fluency/96/github.png" alt="GitHub"/>
+</a>
 
-### 💭 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote"/>
+<a href="subhasish-sahoo-92b714418/" target="_blank">
+  <img src="https://img.icons8.com/fluency/96/linkedin.png" alt="LinkedIn"/>
+</a>
+
+<a href="YOUR_INSTAG" target="_blank">
+  <img src="https://img.icons8.com/fluency/96/instagram-new.png" alt="Instagram"/>
+</a>
+
+<a href="mailto:subhasishsahoo4747@gmail.com">
+  <img src="https://img.icons8.com/fluency/96/gmail.png" alt="Email"/>
+</a>
 
 </div>
 
