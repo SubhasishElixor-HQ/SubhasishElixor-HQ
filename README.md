@@ -17,29 +17,41 @@
 
 </div>
 <!-- ================= ABOUT ME ================= -->
-## 🧠 About Me
+<div align="center">
 
-<img align="right" width="380" src="about-astronaut.svg"/>
-About Me
+# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"/> About Me
 
-🚀 Passionate AI Developer who loves solving real-world problems with code
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=28&duration=3500&pause=1200&color=00F7FF&center=true&vCenter=true&width=900&lines=Turning+Ideas+Into+AI+Solutions;Building+Intelligent+Software;Future+AI+Engineer;Always+Learning+Always+Creating"/>
 
-🏗️ Building scalable AI products — currently the Founder of Omnify
+</div>
 
-📚 Learning something new every single day
+<img align="right" width="420" src="https://raw.githubusercontent.com/onimur/.github/master/.resources/git-header.svg"/>
 
-🌱 Active Open Source contributor
+### 👨‍💻 Developer Profile
 
-💼 Startup builder at heart — turning ideas into products
+```yaml
+Name:          Subhasish Sahoo
+Role:          AI & Software Developer
+Location:      India 🇮🇳
 
-🤖 Deeply interested in LLMs, AI Agents, RAG pipelines & MLOps
+Current Focus:
+  - Large Language Models (LLMs)
+  - Generative AI
+  - AI Agents
+  - Full Stack Development
 
-⚡ Fun fact: I debug my code by talking to it like it owes me money
+Currently Building:
+  - AI Applications
+  - Intelligent Automation
+  - Developer Tools
 
-<br clear="right"/>
+Mission:
+  Build AI products that solve real-world problems
+  and impact millions of people.
 
----
----
+Status:
+  Learning • Building • Improving • Shipping
+```
 
 <!-- ================= TECH STACK ================= -->
 ## 🛠️ Tech Stack
@@ -201,8 +213,14 @@ About Me
 ---
 
 <!-- ================= FOOTER (ANIMATED, MATCHES BANNER) ================= -->
-<div align="center">
+<p align="center">
 
-<img src="./assets/footer.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg">
 
-</div>
+<p align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=25&duration=3500&pause=1000&color=00F5FF&center=true&vCenter=true&width=900&lines=Thanks+for+visiting+my+GitHub!;Happy+Coding!;Let's+Build+Something+Amazing!;See+You+Again!"/>
+
+</p>
+
+
