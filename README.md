@@ -16,45 +16,29 @@
 </p>
 
 </div>
-
 <!-- ================= ABOUT ME ================= -->
 ## 🧠 About Me
 
-<img align="right" width="360" src="./assets/about-astronaut.svg"/>
+<img align="right" width="380" src="about-astronaut.svg"/>
+About Me
 
-<table>
-  <tr>
-    <td width="46">🚀</td>
-    <td>Passionate <b>AI Developer</b> who loves solving real-world problems with code</td>
-  </tr>
-  <tr>
-    <td width="46">🏗️</td>
-    <td>Building scalable <b>AI products</b> — currently the Founder of <b>Omnify</b></td>
-  </tr>
-  <tr>
-    <td width="46">📚</td>
-    <td>Learning something new every single day</td>
-  </tr>
-  <tr>
-    <td width="46">🌱</td>
-    <td>Active <b>Open Source</b> contributor</td>
-  </tr>
-  <tr>
-    <td width="46">💼</td>
-    <td>Startup builder at heart — turning ideas into products</td>
-  </tr>
-  <tr>
-    <td width="46">🤖</td>
-    <td>Deeply interested in <b>LLMs, AI Agents, RAG pipelines &amp; MLOps</b></td>
-  </tr>
-  <tr>
-    <td width="46">⚡</td>
-    <td>Fun fact: I debug my code by talking to it like it owes me money</td>
-  </tr>
-</table>
+🚀 Passionate AI Developer who loves solving real-world problems with code
+
+🏗️ Building scalable AI products — currently the Founder of Omnify
+
+📚 Learning something new every single day
+
+🌱 Active Open Source contributor
+
+💼 Startup builder at heart — turning ideas into products
+
+🤖 Deeply interested in LLMs, AI Agents, RAG pipelines & MLOps
+
+⚡ Fun fact: I debug my code by talking to it like it owes me money
 
 <br clear="right"/>
 
+---
 ---
 
 <!-- ================= TECH STACK ================= -->
