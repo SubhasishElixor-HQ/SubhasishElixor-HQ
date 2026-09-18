@@ -129,11 +129,8 @@ Status:
 ---
 <div align="center">
 
-<img width="98%" src="https://streak-stats.demolab.com?user=SubhasishOmnify-HQ&theme=tokyonight&hide_border=true"/>
+<img width="98%" src="https://streak-stats.demolab.com?user=SubhasishElixor-HQ&theme=tokyonight&hide_border=true"/>
 
-<br><br>
-
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=SubhasishOmnify-HQ&theme=tokyo-night&hide_border=true&area=true"/>
 
 
 </div>
@@ -180,11 +177,11 @@ Status:
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SubhasishOmnify-HQ&theme=github_dark&utcOffset=8" width="46%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SubhasishOmnify-HQ&theme=github_dark" width="46%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SubhasishElixor-HQ&theme=github_dark&utcOffset=8" width="46%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SubhasishElixor-HQ&theme=github_dark" width="46%"/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SubhasishOmnify-HQ&theme=github_dark" width="46%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SubhasishOmnify-HQ&theme=github_dark" width="46%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SubhasishElixor-HQ&theme=github_dark" width="46%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SubhasishElixor-HQ&theme=github_dark" width="46%"/>
 
 </div>
 
@@ -201,7 +198,7 @@ Status:
 
 <br>
 
-<a href="https://github.com/SubhasishOmnify-HQ" target="_blank">
+<a href="https://github.com/SubhasishElixor-HQ" target="_blank">
   <img src="https://img.icons8.com/fluency/96/github.png" alt="GitHub"/>
 </a>
 
