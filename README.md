@@ -10,9 +10,9 @@
 
 <!-- ================= PROFILE VIEWS / SOCIAL COUNTERS ================= -->
 <p>
-  <img src="https://komarev.com/ghpvc/?username=SubhasishOmnify-HQ&label=Profile%20Views&color=00F0FF&style=for-the-badge" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/SubhasishOmnify-HQ?label=Followers&style=for-the-badge&color=8A2BE2" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/SubhasishOmnify-HQ?label=Stars&style=for-the-badge&color=00FFF7" alt="Stars"/>
+  <img src="https://komarev.com/ghpvc/?username=SubhasishElixor-HQ&label=Profile%20Views&color=00F0FF&style=for-the-badge" alt="Profile Views"/>
+  <img src="https://img.shields.io/github/followers/SubhasishElixor-HQ?label=Followers&style=for-the-badge&color=8A2BE2" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/SubhasishElixor-HQ?label=Stars&style=for-the-badge&color=00FFF7" alt="Stars"/>
 </p>
 
 </div>
